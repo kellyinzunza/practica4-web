@@ -1,0 +1,129 @@
+
+
+html {
+    box-sizing: border-box;
+    font-size: 62.5%; /*reset para REMS ;  62.5% = 10px de 16 px*/
+}
+
+*, *:before, *:after{
+    box-sizing: inherit;
+}
+
+body{
+  height: 100%;
+  background-color: #d4d4d4;
+  font-size: 1.6rem;
+  line-height: 2;
+  
+}
+
+
+h1{
+  font-weight: 50;
+  margin: 3rem 0 3rem;
+  text-align: center;
+  font-family: 'Baloo', cursive;
+  font-size: 6rem;
+}
+
+.input-txt{
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+ 
+}
+.input{
+  border: none;
+}
+
+.input-txt .input{
+  padding: 0.5rem 1rem;
+  height: 4rem;
+  outline: none;
+  background-color: #fff;
+  width: 45rem;
+  font-size: 1.15rem;
+  margin: 0.25rem;
+  border-radius: .25rem;
+}
+
+.addbtn{
+  height: 4rem;
+  width:5rem;
+  border-radius: .25rem;
+  outline: none;
+  border: none;
+  margin-left:0.25rem;
+  cursor: pointer;
+  background-color: #2CA6A4;
+}
+
+.addbtn:hover{
+  background-color: rgba(35, 141, 139, 0.911);
+}
+
+.container{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding:2rem;
+}
+
+.item{
+  padding:0.5rem;
+  background-color: none;
+
+}
+
+.iteminput{
+  color: black;
+  height: 4rem;
+  outline: none;
+  background-color: #d4d4d4;
+  width: 41.5rem;
+  border:none;
+  
+}
+
+.edtbtn, .rmvbtn{
+  margin: 0 .3rem;
+  padding:1rem;
+  background:none;
+  border:none;
+  background-color: #AAD922;
+  border-radius: .25rem;
+
+}
+
+.edtbtn:hover{
+  background-color: rgb(138, 175, 27);
+  
+}
+
+.rmvbtn{
+  background-color: #8E3B46;
+}
+
+.addbtn:hover, .edtbtn:hover, .rmvbtn:hover{
+  cursor: pointer;
+} 
+
+.rmvbtn:hover{
+  background-color: rgb(122, 50, 59);
+}
+
+.input, .input-txt, .iteminput{
+  font-family: 'Poppins', sans-serif;
+}
+
+.dibujar-edit{
+  border-bottom: solid black;
+  border-width: .1rem;
+  padding:0.5rem; 
+  background-color: none;
+  
+}
+
